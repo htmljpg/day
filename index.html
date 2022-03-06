@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" type="image/png" href="./favicon.png"/>
+        <meta property="og:image" content="img/preview.jpg">
+        <title>Document</title>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="./css/_normalize.css">
+        <link rel="stylesheet" href="./css/_bootstrap-grid.min.css">
+        <link rel="stylesheet" href="./libs/aos/aos.css">
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <div class="page">
+            <!-- START BLOCK Wrapper -->
+            <div class="page__row page__row--wrapper">
+                <div class="page__cell">
+                    <!-- START BLOCK Topbar -->
+                    <div class="page__row page__row--topbar" id="topbar">
+                        <div class="page__cell container">
+                            <div class="topbar">
+                                <div class="topbar__row d-flex flex-wrap justify-content-center justify-content-md-between">
+                                    <div class="topbar__cell">
+                                        <ul class="contact-info d-flex justify-content-center justify-content-lg-start flex-wrap align-items-center">
+                                            <li class="contact-info__item d-flex align-items-center">
+                                                <i class="contact-info__icon bi bi-envelope-fill"></i>
+                                                <a class="contact-info__link" href="#">info@example.com</a>
+                                            </li>
+                                            <li class="contact-info__item d-flex align-items-center">
+                                                <i class="contact-info__icon bi bi-phone-fill phone-icon"></i>
+                                                <a class="contact-info__link" href="#">+1 5589 55488 55</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="topbar__cell d-flex align-items-center">
+                                        <div class="topbar__social">
+                                            <ul class="topbar__social-items d-flex flex-wrap">
+                                                <li class="topbar__social-item">
+                                                    <a class="topbar__social-link d-flex justify-content-center align-items-center" href="#">
+                                                        <i class="bi bi-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="topbar__social-item">
+                                                    <a class="topbar__social-link d-flex justify-content-center align-items-center" href="#">
+                                                        <i class="bi bi-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="topbar__social-item">
+                                                    <a class="topbar__social-link d-flex justify-content-center align-items-center" href="#">
+                                                        <i class="bi bi-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="topbar__social-item">
+                                                    <a class="topbar__social-link d-flex justify-content-center align-items-center" href="#">
+                                                        <i class="bi bi-linkedin"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END BLOCK Topbar -->
+                    <!-- START BLOCK Header -->
+                    <div class="page__row page__row--header" id="header">
+                        <div class="page__cell container">
+                            <header class="header">
+                                <div class="header__row d-flex align-items-center justify-content-between">
+                                    <div class="header__cell">
+                                        <a class="header__logo logo scrollto" href="#topbar">
+                                            <span class="header__logo-text">Day</span>
+                                            <!-- <img class="logo__picture" src="./img/preview.jpg" alt="Logo"> -->
+                                        </a>
+                                    </div>
+                                    <div class="header__cell">
+                                        <nav class="nav" id="nav">
+                                            <button class="nav-btn nav-btn--close d-md-none" data-target="#nav">
+                                                <img  class="nav__btn-icon" src="./img/svg/close.svg" alt="close">
+                                            </button>
+                                            <ul class="nav__items">
+                                                <li class="nav__item active">
+                                                    <a class="nav__link scrollto active" href="#topbar">Home</a>
+                                                </li>
+                                                <li class="nav__item">
+                                                    <a class="nav__link scrollto" href="#pricing">Pricing</a>
+                                                </li>
+                                                <li class="nav__item">
+                                                    <a class="nav__link scrollto" href="#team">Team</a>
+                                                </li>
+                                                <li class="nav__item">
+                                                    <a class="nav__link scrollto" href="#contact">Contact</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div class="header__cell d-md-none">
+                                        <button class="nav-btn nav-btn--hamburger" data-target="#nav">
+                                            <img  class="nav__btn-icon" src="./img/svg/hamburger.svg" alt="hamburger">
+                                        </button>
+                                    </div>
+                                </div>
+                            </header>
+                        </div>
+                    </div>
+                    <!-- END BLOCK Header -->
+                    <!-- START BLOCK Intro -->
+                    <div class="page__row page__row--intro d-flex align-items-center hero-bg scrolled-offset" id="intro">
+                        <div class="page__cell container">
+                            <div class="intro" data-aos="fade-up" data-aos-delay="500">
+                                <h1 class="intro__title title title--h1">WELCOME TO DAY</h1>
+                                <h2 class="intro__subtitle">We are team of talented designers making websites with Bootstrap</h2>
+                                <a class="button button--primary button---get-started scrollto" href="#about">Get Started</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END BLOCK Intro -->
+                    <!-- START BLOCK About -->
+                    <div class="page__row page__row--about">
+                        <div class="page__cell container">
+                            <section class="section section--about content">
+                                <div class="section__row row">
+                                    <div class="section__cell col-lg-6" data-aos="fade-right" data-aos-delay="500">
+                                        <img src="img/about/about.jpg" class="img-fluid" alt="">
+                                    </div>
+                                    <div class="section__cell col-lg-6" data-aos="fade-left" data-aos-delay="500">
+                                        <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+                                        <p>
+                                            <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i>
+                                        </p>
+                                        <ul>
+                                            <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                            <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+                                            <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                                        </ul>
+                                        <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- END BLOCK About -->
+                    <!-- START BLOCK Why us -->
+                    <div class="page__row page__row--why-us hero-bg" id="why-us">
+                        <div class="page__cell container">
+                            <section class="section section--why-us content">
+                                <header class="section__header">
+                                    <h2 class="section__title title title--h2" data-text="Team">Team</h2>
+                                    <div class="section__desc">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</div>
+                                </header>
+                                <div class="section__body">
+                                    <div class="why-us">
+                                        <div class="why-us__row row">
+                                            <div class="why-us__cell col-lg-4" data-aos="fade-up">
+                                                <div class="why-us__item height-fluid">
+                                                    <h4 class="why-us__title title title--h4">Lorem Ipsum</h4>
+                                                    <div class="why-us__desc">Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</div>
+                                                </div>
+                                            </div>
+                                            <div class="why-us__cell col-lg-4" data-aos="fade-up" data-aos-delay="150">
+                                                <div class="why-us__item height-fluid">
+                                                    <h4 class="why-us__title title title--h4">Repellat Nihil</h4>
+                                                    <div class="why-us__desc">Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</div>
+                                                </div>
+                                            </div>
+                                            <div class="why-us__cell col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                                                <div class="why-us__item height-fluid">
+                                                    <h4 class="why-us__title title title--h4">Ad ad velit qui</h4>
+                                                    <div class="why-us__desc">Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- END BLOCK Why us -->
+                    <!-- START BLOCK CTA -->
+                    <div class="page__row page__row--cta hero-bg" id="cta">
+                        <div class="page__cell container">
+                            <section class="section section--cta white" data-aos="zoom-in">
+                                <header class="section__header">
+                                    <h3 class="section__title-h3">Call To Action</h3>
+                                    <div class="section__desc">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+                                    <a class="button button--primary scrollto" href="#">Call on action</a>
+                                </header>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- END BLOCK CTA -->
+                    <!-- START BLOCK Pricing -->
+                    <div class="page__row page__row--pricing hero-bg" id="pricing">
+                        <div class="page__cell container">
+                            <section class="section section--pricing">
+                                <header class="section__header">
+                                    <h2 class="section__title title title--h2" data-text="Pricing">Pricing</h2>
+                                    <div class="section__desc">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</div>
+                                </header>
+                                <div class="section__body">
+                                    <div class="pricing">
+                                        <div class="pricing__row row">
+                                            <div class="pricing__cell col-12 col-md-4" data-aos="zoom-in" data-aos-delay="150">
+                                                <div class="pricing__item">
+                                                    <h3 class="pricing__title">FREE</h3>
+                                                    <div class="pricing__div">
+                                                        <sup>$</sup>0<span> / month</span>
+                                                    </div>
+                                                    <ul class="pricing__list list-reset">
+                                                        <li class="pricing__list-item">Aida dere</li>
+                                                        <li class="pricing__list-item">Nec feugiat nisl</li>
+                                                        <li class="pricing__list-item">Nulla at volutpat dola</li>
+                                                        <li class="pricing__list-item pricing__list-item--na">Pharetra massa</li>
+                                                        <li class="pricing__list-item pricing__list-item--na">Massa ultricies mi</li>
+                                                    </ul>
+                                                    <div class="pricing__btn-wrap">
+                                                        <a class="btn-buy" href="#">Buy Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pricing__cell col-12 col-md-4" data-aos="zoom-in">
+                                                <div class="pricing__item featured">
+                                                    <h3 class="pricing__title">BUSINESS</h3>
+                                                    <div class="pricing__div">
+                                                        <sup>$</sup>19<span> / month</span>
+                                                    </div>
+                                                    <ul class="pricing__list list-reset">
+                                                        <li class="pricing__list-item">Aida dere</li>
+                                                        <li class="pricing__list-item">Nec feugiat nisl</li>
+                                                        <li class="pricing__list-item">Nulla at volutpat dola</li>
+                                                        <li class="pricing__list-item">Pharetra massa</li>
+                                                        <li class="pricing__list-item pricing__list-item--na featured">Massa ultricies mi</li>
+                                                    </ul>
+                                                    <div class="pricing__btn-wrap">
+                                                        <a class="btn-buy featured" href="#">Buy Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="pricing__cell col-12 col-md-4" data-aos="zoom-in" data-aos-delay="150">
+                                                <div class="pricing__item">
+                                                    <h3 class="pricing__title">DEVELOPER</h3>
+                                                    <div class="pricing__div">
+                                                        <sup>$</sup>29<span> / month</span>
+                                                    </div>
+                                                    <ul class="pricing__list list-reset">
+                                                        <li class="pricing__list-item">Aida dere</li>
+                                                        <li class="pricing__list-item">Nec feugiat nisl</li>
+                                                        <li class="pricing__list-item">Nulla at volutpat dola</li>
+                                                        <li class="pricing__list-item">Pharetra massa</li>
+                                                        <li class="pricing__list-item">Massa ultricies mi</li>
+                                                    </ul>
+                                                    <div class="pricing__btn-wrap">
+                                                        <a class="btn-buy" href="#">Buy Now</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- END BLOCK Pricing -->
+                    <!-- START BLOCK Team -->
+                    <div class="page__row page__row--team hero-bg" id="team">
+                        <div class="page__cell container">
+                            <section class="section section--team">
+                                <header class="section__header">
+                                    <h2 class="section__title title title--h2" data-text="Team">Team</h2>
+                                    <div class="section__desc">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</div>
+                                </header>
+                                <div class="section__body">
+                                    <div class="team">
+                                        <div class="team__row row">
+                                            <div class="team__cell col-12 col-lg-4" data-aos="zoom-in">
+                                                <div class="team__member member box-shadow">
+                                                    <img class="member__picture object-fit-cover img-fluid circle" src="./img/team/team-1.jpg" alt="Walter White">
+                                                    <h4 class="member__title title title--h4">Walter White</h4>
+                                                    <div class="member__position">Chief Executive Officer</div>
+                                                    <div class="member__text">Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</div>
+                                                </div>
+                                            </div>
+                                            <div class="team__cell col-12 col-lg-4" data-aos="zoom-in">
+                                                <div class="team__member member box-shadow">
+                                                    <img class="member__picture object-fit-cover img-fluid circle" src="./img/team/team-2.jpg" alt="Sarah Jhinson">
+                                                    <h4 class="member__title title title--h4">Sarah Jhinson</h4>
+                                                    <div class="member__position">Chief Executive Officer</div>
+                                                    <div class="member__text">Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</div>
+                                                </div>
+                                            </div>
+                                            <div class="team__cell col-12 col-lg-4" data-aos="zoom-in">
+                                                <div class="team__member member box-shadow">
+                                                    <img class="member__picture object-fit-cover img-fluid circle" src="./img/team/team-3.jpg" alt="William Anderson">
+                                                    <h4 class="member__title title title--h4">William Anderson</h4>
+                                                    <div class="member__position">Chief Executive Officer</div>
+                                                    <div class="member__text">Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- END BLOCK Team -->
+                    <!-- START BLOCK Contact -->
+                    <div class="page__row page__row--contact hero-bg" id="contact">
+                        <div class="page__cell container">
+                            <section class="section section--contact">
+                                <header class="section__header">
+                                    <h2 class="section__title title title--h2" data-text="CONTACT">CONTACT</h2>
+                                    <div class="section__desc">Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</div>
+                                </header>
+                                <div class="section__body">
+                                    <div class="contact">
+                                        <div class="contact__row row" data-aos="fade-up">
+                                            <div class="contact__cell col-12 col-lg-6">
+                                                <div class="map">
+                                                    <iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d23833.931130744742!2d44.8487827!3d41.69372435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sge!4v1646500203541!5m2!1sru!2sge"></iframe>
+                                                </div>
+                                            </div>
+                                            <div class="contact__cell col-12 col-lg-6">
+                                                <div class="contact__row row">
+                                                    <div class="contact__cell col-12 col-sm-6">
+                                                        <div class="info-box box-shadow">
+                                                            <div class="info-box__icon">
+                                                                <i class="bi bi-envelope"></i>
+                                                                <h3 class="info-box__title title title--h3">Email Us</h3>
+                                                                <div class="info-box__text">contact@example.com</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="contact__cell col-12 col-sm-6">
+                                                        <div class="info-box box-shadow">
+                                                            <div class="info-box__icon">
+                                                                <i class="bi bi-phone"></i>
+                                                                <h3 class="info-box__title title title--h3">Call Us</h3>
+                                                                <div class="info-box__text">+1 5589 55488 55</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="contact__cell col-12">
+                                                        <div class="info-box box-shadow">
+                                                            <div class="info-box__icon">
+                                                                text
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <!-- END BLOCK Contact -->
+                </div>
+            </div>
+            <!-- END BLOCK Wrapper -->
+            <!-- START BLOCK Footer -->
+            <div class="page__row page__row--footer">
+                <div class="page__cell container container">
+                    <footer class="footer">
+                        <div class="footer__top">
+                            <div class="footer__row row">
+                                <div class="footer__cell col-lg-4 col-md-12">
+                                    <div class="footer__info">
+                                        <div class="footer__logo logo">
+                                            Day
+                                            <!-- <img class="logo__picture" src="./img/preview.jpg" alt="Logo"> -->
+                                        </div>
+                                        <p class="footer__info-text">
+                                            A108 Adam Street <br>
+                                            NY 535022, USA<br><br>
+                                            <strong>Phone:</strong> +1 5589 55488 55<br>
+                                            <strong>Email:</strong> info@example.com<br>
+                                        </p>
+                                        <div class="social">
+                                            <ul class="social__items d-flex flex-wrap justify-content-center">
+                                                <li class="social__item">
+                                                    <a class="social__link d-flex justify-content-center align-items-center" href="#">
+                                                        <i class="bi bi-twitter"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="social__item">
+                                                    <a class="social__link d-flex justify-content-center align-items-center" href="#">
+                                                        <i class="bi bi-facebook"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="social__item">
+                                                    <a class="social__link d-flex justify-content-center align-items-center" href="#">
+                                                        <i class="bi bi-instagram"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="social__item">
+                                                    <a class="social__link d-flex justify-content-center align-items-center" href="#">
+                                                        <i class="bi bi-google"></i>
+                                                    </a>
+                                                </li>
+                                                <li class="social__item">
+                                                    <a class="social__link d-flex justify-content-center align-items-center" href="#">
+                                                        <i class="bi bi-linkedin"></i>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer__cell col-12 col-lg-2 col-md-3 col-sm-6">
+                                    <div class="footer__block">
+                                        <h4 class="footer__title">Useful Links</h4>
+                                        <nav class="footer__nav">
+                                            <ul class="footer__nav-items">
+                                                <li class="footer__nav-item">
+                                                    <i class="bi bi-chevron-right"></i>
+                                                    <a class="footer__nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="footer__nav-item">
+                                                    <i class="bi bi-chevron-right"></i>
+                                                    <a class="footer__nav-link" href="#">About us</a>
+                                                </li>
+                                                <li class="footer__nav-item">
+                                                    <i class="bi bi-chevron-right"></i>
+                                                    <a class="footer__nav-link" href="#">Services</a>
+                                                </li>
+                                                <li class="footer__nav-item">
+                                                    <i class="bi bi-chevron-right"></i>
+                                                    <a class="footer__nav-link" href="#">Terms of service</a>
+                                                </li>
+                                                <li class="footer__nav-item">
+                                                    <i class="bi bi-chevron-right"></i>
+                                                    <a class="footer__nav-link" href="#">Privacy policy</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <div class="footer__cell col-12 col-sm-6 col-lg-2 col-md-3">
+                                    <div class="footer__block">
+                                        <h4 class="footer__title">Useful Links</h4>
+                                        <nav class="footer__nav">
+                                            <ul class="footer__nav-items">
+                                                <li class="footer__nav-item">
+                                                    <i class="bi bi-chevron-right"></i>
+                                                    <a class="footer__nav-link" href="#">Home</a>
+                                                </li>
+                                                <li class="footer__nav-item">
+                                                    <i class="bi bi-chevron-right"></i>
+                                                    <a class="footer__nav-link" href="#">About us</a>
+                                                </li>
+                                                <li class="footer__nav-item">
+                                                    <i class="bi bi-chevron-right"></i>
+                                                    <a class="footer__nav-link" href="#">Services</a>
+                                                </li>
+                                                <li class="footer__nav-item">
+                                                    <i class="bi bi-chevron-right"></i>
+                                                    <a class="footer__nav-link" href="#">Terms of service</a>
+                                                </li>
+                                                <li class="footer__nav-item">
+                                                    <i class="bi bi-chevron-right"></i>
+                                                    <a class="footer__nav-link" href="#">Privacy policy</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-md-6">
+                                    <div class="footer__block">
+                                        <h4 class="footer__title">Our Newsletter</h4>
+                                        <div class="footer__text">Tamen quem nulla quae legam multos aute sint culpa legam noster magna</div>
+                                        <form class="footer__form" action="#" method="post">
+                                            <input class="footer__form-control" type="email" name="email">
+                                            <input class="footer__form-btn" type="submit" value="Subscribe">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__bottom">
+                            <div class="footer__copyright">
+                                © Copyright Day. All Rights Reserved
+                            </div>
+                            <div class="footer__credits">
+                                Designed by <a class="footer__credits-link" href="#">BootstrapMade</a>
+                            </div>
+                        </div>
+                    </footer>
+                </div>
+            </div>
+            <!-- END BLOCK Footer -->
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="./libs/aos/aos.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
