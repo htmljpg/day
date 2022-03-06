@@ -157,7 +157,7 @@ body {
 .content ul li .bi {
     font-size: 20px;
     padding-right: 4px;
-    color: #cc1616;
+    color: #ff8400;
 }
 .box-shadow {
     box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);
@@ -222,7 +222,7 @@ TOPBAR
     margin-right: 15px;
 }
 .contact-info__icon {
-    color: #cc1616;
+    color: #ff8400;
     line-height: 0;
     margin-right: 5px;
 }
@@ -302,7 +302,7 @@ HEADER
 }
 
 .nav__link:hover, .nav__link .active, .nav__link .active:focus, .nav__item:hover .nav__link, .nav__link.active {
-    background: #cc1616;
+    background: #ff8400;
 }
 
 /***************************************************
@@ -357,7 +357,7 @@ WHY US
 .why-us__item:hover {
     box-shadow: 10px 15px 30px rgb(0 0 0 / 18%);
     padding: 15px 30px 30px 30px;
-    background: #cc1616;
+    background: #ff8400;
     color: #fff;
 }
 .why-us__item:hover::before {
@@ -403,7 +403,7 @@ PRICING
 .pricing__item.featured {
     color: #fff;
     box-shadow: none;
-    background: #cc1616;
+    background: #ff8400;
 }
 .pricing__title {
     padding: 15px;
@@ -414,7 +414,7 @@ PRICING
     font-weight: 600;
 }
 .pricing__div {
-    color: #cc1616;
+    color: #ff8400;
     font-size: 42px;
     margin-bottom: 20px;
     font-weight: 500;
@@ -454,7 +454,7 @@ PRICING
     font-weight: 400;
     padding: 10px 40px;
     transition: 0.3s;
-    background: #cc1616;
+    background: #ff8400;
     font-family: "Raleway", sans-serif;
 }
 .btn-buy:hover {
@@ -465,7 +465,7 @@ PRICING
 }
 .btn-buy.featured:hover {
     background: #fff;
-    color: #cc1616;
+    color: #ff8400;
 }
 .featured * {
     color: #fff;
@@ -559,7 +559,7 @@ FOOTER
     padding: 30px 20px;
     color: #fff;
     background: #191919;
-    border-top: 4px solid #cc1616;
+    border-top: 4px solid #ff8400;
     margin-bottom: 15px;
     text-align: center;
 }
@@ -598,7 +598,7 @@ FOOTER
 .social__link:hover {
     text-decoration: none;
     color: #fff;
-    background: #cc1616;
+    background: #ff8400;
 }
 .social__link i {
     font-size: 14px;
@@ -654,7 +654,7 @@ FOOTER
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #cc1616;
+    background: #ff8400;
     color: #fff;
     transition: 0.3s;
 }
@@ -696,8 +696,8 @@ FOOTER
     color: #fff;
 }
 .button--primary:hover {
-    background: #cc1616;
-    border-color: #cc1616;
+    background: #ff8400;
+    border-color: #ff8400;
 }
 
 
