@@ -429,6 +429,9 @@ PRICING
     font-size: 16px;
     color: #bababa;
 }
+.featured .pricing__div span {
+    color: inherit;
+}
 .pricing__list {
     text-align: center;
     color: #191919;
