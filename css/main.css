@@ -26,6 +26,7 @@ h5,
 h6 {
     font-weight: inherit;
     font-size: inherit;
+    margin-bottom: .5rem;
 }
 html,
 body {
@@ -134,6 +135,9 @@ body {
 }
 .section__desc {
     margin-bottom: 1rem;    
+}
+.section__desc + .button {
+    margin-top: 10px;
 }
 
 .content {
