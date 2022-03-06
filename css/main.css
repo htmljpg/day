@@ -175,6 +175,16 @@ body {
 }
 /* ---------------- */
 
+.page__cell {
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+
+.page__cell--fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /* PC */
 @media (max-width: 1198.98px) {
     
@@ -260,6 +270,7 @@ HEADER
     display: block;
     line-height: 1;
     color: #fff;
+    font-family: "Raleway", sans-serif;
 }
 
 .nav__items {
@@ -322,6 +333,8 @@ INTRO
     margin-bottom: 30px;
     font-size: 24px;
     line-height: 1.2;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
 }
 
 /***************************************************
